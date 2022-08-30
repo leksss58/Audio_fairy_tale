@@ -21,6 +21,7 @@ class OnBoardActivity : ComponentActivity() {
         }
     }
 
+
     @Preview
     @Composable
     private fun onBoarding(){
