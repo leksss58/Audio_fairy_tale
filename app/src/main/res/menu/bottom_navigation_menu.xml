@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuHome"
+        android:enabled="true"
+        android:title="@string/bottom_menu_home"
+        android:icon="@drawable/ic_menu_home"/>
+    <item
+        android:id="@+id/menuFavorite"
+        android:enabled="true"
+        android:title="@string/bottom_menu_favorite"
+        android:icon="@drawable/ic_menu_favorite"/>
+    <item
+        android:id="@+id/menuShare"
+        android:enabled="true"
+        android:title="@string/bottom_menu_share"
+        android:icon="@drawable/ic_menu_share"/>
+    <item
+        android:id="@+id/menuAbout"
+        android:enabled="true"
+        android:title="@string/bottom_menu_about"
+        android:icon="@drawable/ic_menu_info"/>
+
+</menu>
