@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Audio fairy tale</string>
+
+    <!--Bottom menu-->
+    <string name="bottom_menu_home">Главная</string>
+    <string name="bottom_menu_favorite">Избранное</string>
+    <string name="bottom_menu_share">Поделиться</string>
+    <string name="bottom_menu_about">О нас</string>
 </resources>
