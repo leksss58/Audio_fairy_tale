@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorSurface">@color/colorPrimary</item>
-        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">#0A0A29</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#00A7FF</item>
     </style>
 </resources>

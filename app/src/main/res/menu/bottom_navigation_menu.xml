@@ -4,21 +4,21 @@
         android:id="@+id/menuHome"
         android:enabled="true"
         android:title="@string/bottom_menu_home"
-        android:icon="@drawable/ic_menu_home"/>
+        android:icon="@drawable/ic_home"/>
     <item
-        android:id="@+id/menuFavorite"
+        android:id="@+id/menuAll"
+        android:enabled="true"
+        android:title="@string/bottom_menu_all"
+        android:icon="@drawable/ic_all"/>
+    <item
+        android:id="@+id/menuАфмщкшеу"
         android:enabled="true"
         android:title="@string/bottom_menu_favorite"
-        android:icon="@drawable/ic_menu_favorite"/>
+        android:icon="@drawable/ic_favorite"/>
     <item
-        android:id="@+id/menuShare"
+        android:id="@+id/menuSettings"
         android:enabled="true"
-        android:title="@string/bottom_menu_share"
-        android:icon="@drawable/ic_menu_share"/>
-    <item
-        android:id="@+id/menuAbout"
-        android:enabled="true"
-        android:title="@string/bottom_menu_about"
-        android:icon="@drawable/ic_menu_info"/>
+        android:title="@string/bottom_menu_settings"
+        android:icon="@drawable/ic_settings"/>
 
 </menu>
