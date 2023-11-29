@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Size-->
+    <dimen name="size40">40sp</dimen>
+    <dimen name="size32">32sp</dimen>
+    <dimen name="size30">30sp</dimen>
+    <dimen name="size28">28sp</dimen>
+    <dimen name="size26">26sp</dimen>
+    <dimen name="size24">24sp</dimen>
+    <dimen name="size22">22sp</dimen>
+    <dimen name="size20">20sp</dimen>
+    <dimen name="size18">18sp</dimen>
+    <dimen name="size16">16sp</dimen>
+    <dimen name="size15">15sp</dimen>
+    <dimen name="size14">14sp</dimen>
+    <dimen name="size12">12sp</dimen>
+    <dimen name="size10">10sp</dimen>
+    <!--Translation-->
+    <dimen name="translationY_0">0sp</dimen>
+    <dimen name="translationY_0.9">-0.9sp</dimen>
+    <dimen name="translationY_1.25">-1.25sp</dimen>
+    <dimen name="translationY_1.45">-1.45sp</dimen>
+    <dimen name="translationY_1.94">-1.94sp</dimen>
+    <dimen name="translationY_1.97">-1.97sp</dimen>
+    <dimen name="translationY_2.62">-2.62sp</dimen>
+    <dimen name="translationY_2.14">-2.14sp</dimen>
+    <!--LineSpacing-->
+    <dimen name="lineSpacing0">0sp</dimen>
+    <dimen name="lineSpacing2">2sp</dimen>
+    <dimen name="lineSpacing3">3sp</dimen>
+    <dimen name="lineSpacing4">4sp</dimen>
+    <dimen name="lineSpacing5">5sp</dimen>
+    <!--LetterSpacing-->
+    <dimen name="letterSpacing_0_01">0.01</dimen>
+    <dimen name="letterSpacing_0_02">0.02</dimen>
+    <dimen name="letterSpacing_0_25">0.25dp</dimen>
+    <dimen name="letterSpacing_0_03">0.03</dimen>
+    <dimen name="letterSpacing_0_4">0.4</dimen>
+    <dimen name="letterSpacing_0_06">0.06</dimen>
+    <!--LineHeight-->
+    <dimen name="lineHeight16sp">16sp</dimen>
+    <dimen name="lineHeight18sp">18sp</dimen>
+    <dimen name="lineHeight24sp">24sp</dimen>
+    <dimen name="lineHeight32sp">32sp</dimen>
+    <!--Margin-->
+    <dimen name="margin_94dp">94dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="margin_70dp">70dp</dimen>
+    <dimen name="margin_64dp">64dp</dimen>
+    <dimen name="margin_58dp">58dp</dimen>
+    <dimen name="margin_56dp">56dp</dimen>
+    <dimen name="margin_48dp">48dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_28dp">28dp</dimen>
+    <dimen name="margin_26dp">26dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_23dp">23dp</dimen>
+    <dimen name="margin_22dp">23dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_14dp">14dp</dimen>
+    <dimen name="margin_13dp">13dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_6dp">6dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_1dp">1dp</dimen>
+    <dimen name="margin_0dp">0dp</dimen>
+    <!--View size-->
+    <dimen name="view_size_2dp">2dp</dimen>
+    <dimen name="view_size_3dp">3dp</dimen>
+    <dimen name="view_size_32dp">32dp</dimen>
+    <!--Radius-->
+    <dimen name="radius_24dp">24dp</dimen>
+    <dimen name="radius">8dp</dimen>
+    <dimen name="radius_4dp">4dp</dimen>
+    <!--Padding-->
+    <dimen name="padding_40dp">40dp</dimen>
+    <dimen name="padding_24dp">24dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_18dp">18dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="padding_3dp">3dp</dimen>
+    <dimen name="padding_2dp">2dp</dimen>
+    <!--fix dp-->
+    <dimen name="min_width_135">135dp</dimen>
+    <dimen name="fix_210dp">210dp</dimen>
+    <dimen name="fix_170dp">170dp</dimen>
+    <dimen name="fix_160dp">160dp</dimen>
+    <dimen name="fix_150dp">150dp</dimen>
+    <dimen name="fix_128dp">128dp</dimen>
+    <dimen name="fix_100dp">100dp</dimen>
+    <dimen name="fix_70dp">70dp</dimen>
+    <dimen name="fix_64dp">64dp</dimen>
+    <dimen name="fix_60dp">60dp</dimen>
+    <dimen name="max_width_95">95dp</dimen>
+    <dimen name="fix_48dp">48dp</dimen>
+    <dimen name="fix_32dp">32dp</dimen>
+    <dimen name="fix_28dp">28dp</dimen>
+    <dimen name="fix_24dp">24dp</dimen>
+    <dimen name="fix_18dp">18dp</dimen>
+    <dimen name="fix_16dp">16dp</dimen>
+    <dimen name="fix_10dp">10dp</dimen>
+    <dimen name="fix_8dp">8dp</dimen>
+    <dimen name="fix_6dp">6dp</dimen>
+    <dimen name="fix_4dp">4dp</dimen>
+    <dimen name="fix_2dp">2dp</dimen>
+    <dimen name="fix_1dp">1dp</dimen>
+    <dimen name="fix_0dp">0dp</dimen>
+    <!--fix width and height-->
+    <dimen name="icon_60dp">60dp</dimen>
+    <dimen name="icon_32dp">32dp</dimen>
+    <dimen name="icon_6dp">6dp</dimen>
+
+    <!--Avatar size-->
+    <dimen name="avatar_width">100dp</dimen>
+    <dimen name="avatar_height">100dp</dimen>
+
+    <dimen name="logo_cell_size">48dp</dimen>
+    <dimen name="button_cell_size">24dp</dimen>
+
+    <dimen name="dot_size">6dp</dimen>
+    <dimen name="small_avatar">24dp</dimen>
+
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="card_corner_radius">0dp</dimen>
+
+    <dimen name="contact_background_radius">8dp</dimen>
+
+    <dimen name="shape_register_background_radius">12dp</dimen>
+
+    <dimen name="popup_menu_background_radius">28dp</dimen>
+
+    <dimen name="collapse_toolbar_height">192dp</dimen>
+    <dimen name="radius_8dp">8dp</dimen>
+    <dimen name="fix_42dp">42dp</dimen>
+    <dimen name="fix_15dp">15dp</dimen>
+
+</resources>
