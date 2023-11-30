@@ -11,7 +11,7 @@ import com.leksssapps.audiofairytale.databinding.ItemOneTwoBinding
 import com.leksssapps.audiofairytale.databinding.ItemRuBinding
 import com.leksssapps.audiofairytale.databinding.ItemTwoFourBinding
 import com.leksssapps.audiofairytale.databinding.ItemUaBinding
-import com.leksssapps.audiofairytale.presentation.fragments.home.enums.CategoryType
+import com.leksssapps.audiofairytale.presentation.models.enums.CategoryType
 import com.leksssapps.audiofairytale.presentation.models.home.CategoriesPresentationModel
 
 class CategoriesRecyclerView : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

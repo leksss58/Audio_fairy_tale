@@ -16,9 +16,8 @@
         android:title="@string/bottom_menu_favorite"
         android:icon="@drawable/ic_favorite"/>
     <item
-        android:id="@+id/menuSettings"
+        android:id="@+id/settingsFragment"
         android:enabled="true"
         android:title="@string/bottom_menu_settings"
         android:icon="@drawable/ic_settings"/>
-
 </menu>

@@ -15,4 +15,9 @@
         android:name="com.leksssapps.audiofairytale.presentation.fragments.all.ui.AllFragment"
         tools:layout="@layout/fragment_all" />
 
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.leksssapps.audiofairytale.presentation.fragments.settings.ui.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+
 </navigation>
