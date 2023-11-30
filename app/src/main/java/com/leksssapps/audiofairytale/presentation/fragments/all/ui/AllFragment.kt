@@ -8,10 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.leksssapps.audiofairytale.R
 import com.leksssapps.audiofairytale.databinding.FragmentAllBinding
 import com.leksssapps.audiofairytale.presentation.fragments.all.adapter.AllRecyclerView
-import com.leksssapps.audiofairytale.presentation.fragments.home.adapters.AllHomeRecyclerView
-import com.leksssapps.audiofairytale.presentation.fragments.home.enums.CategoryType
+import com.leksssapps.audiofairytale.presentation.models.enums.CategoryType
 import com.leksssapps.audiofairytale.presentation.models.all.AllFairyTalePresentationModel
-import com.leksssapps.audiofairytale.presentation.models.home.AllPresentationModel
 
 class AllFragment : Fragment(R.layout.fragment_all) {
 

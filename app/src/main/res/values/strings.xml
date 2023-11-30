@@ -7,6 +7,12 @@
     <string name="home_fragment_show_all">Показать все</string>
     <string name="home_fragment_recommended">Рекомендуемые</string>
 
+    <!--Settings fragment-->
+    <string name="settings_fragment_private_policy">Политика конфиденциальности</string>
+    <string name="settings_fragment_about">О нас</string>
+    <string name="settings_fragment_title_email">Задать вопрос / Поддержка</string>
+    <string name="settings_fragment_email">test@gmail.com</string>
+
     <!--Bottom menu-->
     <string name="bottom_menu_home">Главная</string>
     <string name="bottom_menu_all">Все сказки</string>

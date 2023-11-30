@@ -11,7 +11,7 @@ import com.leksssapps.audiofairytale.databinding.FragmentHomeBinding
 import com.leksssapps.audiofairytale.presentation.fragments.home.adapters.AllHomeRecyclerView
 import com.leksssapps.audiofairytale.presentation.fragments.home.adapters.CategoriesRecyclerView
 import com.leksssapps.audiofairytale.presentation.fragments.home.adapters.RecommendedRecyclerView
-import com.leksssapps.audiofairytale.presentation.fragments.home.enums.CategoryType
+import com.leksssapps.audiofairytale.presentation.models.enums.CategoryType
 import com.leksssapps.audiofairytale.presentation.fragments.home.viewmodel.HomeViewModel
 import com.leksssapps.audiofairytale.presentation.models.home.AllPresentationModel
 import com.leksssapps.audiofairytale.presentation.models.home.CategoriesPresentationModel

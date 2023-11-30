@@ -1,6 +1,6 @@
 package com.leksssapps.audiofairytale.presentation.models.home
 
-import com.leksssapps.audiofairytale.presentation.fragments.home.enums.CategoryType
+import com.leksssapps.audiofairytale.presentation.models.enums.CategoryType
 
 data class AllPresentationModel(
     val id: Int?,

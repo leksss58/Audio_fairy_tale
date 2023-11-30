@@ -1,4 +1,4 @@
-package com.leksssapps.audiofairytale.presentation.fragments.home.enums
+package com.leksssapps.audiofairytale.presentation.models.enums
 
 enum class CategoryType(val value : Int) {
     ONE_TWO(0),
