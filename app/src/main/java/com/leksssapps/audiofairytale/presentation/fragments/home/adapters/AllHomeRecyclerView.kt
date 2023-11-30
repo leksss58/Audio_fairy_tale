@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.leksssapps.audiofairytale.R
 import com.leksssapps.audiofairytale.databinding.ItemHomeAllBinding
 import com.leksssapps.audiofairytale.presentation.fragments.home.enums.CategoryType
-import com.leksssapps.audiofairytale.presentation.models.AllPresentationModel
+import com.leksssapps.audiofairytale.presentation.models.home.AllPresentationModel
 
 class AllHomeRecyclerView : RecyclerView.Adapter<AllHomeRecyclerView.ViewHolder>() {
 

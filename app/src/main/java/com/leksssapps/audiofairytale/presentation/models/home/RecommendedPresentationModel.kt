@@ -1,4 +1,4 @@
-package com.leksssapps.audiofairytale.presentation.models
+package com.leksssapps.audiofairytale.presentation.models.home
 
 data class RecommendedPresentationModel(
     val id: Int?,

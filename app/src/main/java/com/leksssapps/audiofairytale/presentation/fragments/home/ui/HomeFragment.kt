@@ -8,15 +8,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.leksssapps.audiofairytale.R
 import com.leksssapps.audiofairytale.databinding.FragmentHomeBinding
-import com.leksssapps.audiofairytale.databinding.LayoutSearchViewBarBinding
 import com.leksssapps.audiofairytale.presentation.fragments.home.adapters.AllHomeRecyclerView
 import com.leksssapps.audiofairytale.presentation.fragments.home.adapters.CategoriesRecyclerView
 import com.leksssapps.audiofairytale.presentation.fragments.home.adapters.RecommendedRecyclerView
 import com.leksssapps.audiofairytale.presentation.fragments.home.enums.CategoryType
 import com.leksssapps.audiofairytale.presentation.fragments.home.viewmodel.HomeViewModel
-import com.leksssapps.audiofairytale.presentation.models.AllPresentationModel
-import com.leksssapps.audiofairytale.presentation.models.CategoriesPresentationModel
-import com.leksssapps.audiofairytale.presentation.models.RecommendedPresentationModel
+import com.leksssapps.audiofairytale.presentation.models.home.AllPresentationModel
+import com.leksssapps.audiofairytale.presentation.models.home.CategoriesPresentationModel
+import com.leksssapps.audiofairytale.presentation.models.home.RecommendedPresentationModel
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 

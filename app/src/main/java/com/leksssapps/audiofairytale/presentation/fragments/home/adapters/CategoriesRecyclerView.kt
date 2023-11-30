@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.leksssapps.audiofairytale.R
 import com.leksssapps.audiofairytale.databinding.ItemFourSixBinding
 import com.leksssapps.audiofairytale.databinding.ItemNoiseBinding
 import com.leksssapps.audiofairytale.databinding.ItemOldRuBinding
@@ -13,7 +12,7 @@ import com.leksssapps.audiofairytale.databinding.ItemRuBinding
 import com.leksssapps.audiofairytale.databinding.ItemTwoFourBinding
 import com.leksssapps.audiofairytale.databinding.ItemUaBinding
 import com.leksssapps.audiofairytale.presentation.fragments.home.enums.CategoryType
-import com.leksssapps.audiofairytale.presentation.models.CategoriesPresentationModel
+import com.leksssapps.audiofairytale.presentation.models.home.CategoriesPresentationModel
 
 class CategoriesRecyclerView : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

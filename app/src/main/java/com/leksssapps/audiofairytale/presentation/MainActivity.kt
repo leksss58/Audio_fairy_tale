@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater).apply {
             setContentView(root)
             navController.navInflater.inflate(R.navigation.nav_graph).apply {
-                setStartDestination(R.id.menuHome)
+                setStartDestination(R.id.homeFragment)
             }
             mainBottomNavigationMenu.setupWithNavController(navController)
         }
