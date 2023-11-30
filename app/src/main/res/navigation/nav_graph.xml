@@ -10,4 +10,9 @@
         android:name="com.leksssapps.audiofairytale.presentation.fragments.home.ui.HomeFragment"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/allFragment"
+        android:name="com.leksssapps.audiofairytale.presentation.fragments.all.ui.AllFragment"
+        tools:layout="@layout/fragment_all" />
+
 </navigation>
