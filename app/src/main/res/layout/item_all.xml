@@ -8,10 +8,13 @@
     android:layout_marginTop="@dimen/margin_4dp"
     android:layout_marginEnd="@dimen/margin_4dp"
     android:layout_marginBottom="@dimen/margin_4dp"
-    app:cardBackgroundColor="#2A3170"
+    app:cardBackgroundColor="@color/item_all"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
     android:hardwareAccelerated="true"
     app:cardCornerRadius="@dimen/fix_10dp"
-    app:cardElevation="@dimen/fix_8dp"
+    app:cardElevation="@dimen/fix_2dp"
     app:layout_constraintStart_toStartOf="parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -92,5 +95,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </com.google.android.material.card.MaterialCardView>

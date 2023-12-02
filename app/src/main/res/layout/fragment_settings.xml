@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_background">
+    android:background="@android:color/transparent">
 
     <LinearLayout
         android:id="@+id/firstView"
@@ -81,17 +81,34 @@
 
     </LinearLayout>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/shareButton"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/thirdView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_16dp"
-        android:backgroundTint="@color/colorAccent"
-        android:padding="@dimen/padding_16dp"
-        android:text="Поделиться приложением"
-        app:cornerRadius="@dimen/fix_150dp"
-        app:layout_constraintEnd_toEndOf="@+id/secondView"
-        app:layout_constraintStart_toStartOf="@+id/secondView"
-        app:layout_constraintTop_toBottomOf="@+id/secondView" />
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginTop="@dimen/margin_24dp"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:background="@drawable/shape_settings"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/secondView">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_16dp"
+            android:layout_marginBottom="@dimen/margin_16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="@dimen/padding_16dp"
+            android:text="Поделиться приложением"
+            app:cornerRadius="@dimen/fix_150dp"
+            app:layout_constraintEnd_toEndOf="@+id/secondView"
+            app:layout_constraintStart_toStartOf="@+id/secondView"
+            app:layout_constraintTop_toBottomOf="@+id/secondView" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
