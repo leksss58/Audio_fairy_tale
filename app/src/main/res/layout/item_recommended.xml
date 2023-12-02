@@ -13,6 +13,9 @@
         android:layout_marginEnd="@dimen/margin_4dp"
         android:elevation="@dimen/fix_2dp"
         app:cardCornerRadius="@dimen/fix_10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         app:layout_constraintStart_toStartOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
